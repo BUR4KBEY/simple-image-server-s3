@@ -1,4 +1,4 @@
-# Simple Image Server using AWS S3 Bucket 🖼️
+# Simple Image Server using an AWS S3 Bucket 🖼️
 
 This repository is dedicated to providing basic implementations and operations for working with AWS S3 buckets. Our goal is to efficiently read and write images using the S3 bucket infrastructure. Additionally, we utilize the local machine's disk as a cache to minimize the number of requests made to AWS.
 
@@ -85,9 +85,9 @@ Here's how you can do it:
 
    3. Provide a name for your user, and then click the **Next** button.
 
-   4. Select **Attach policies directly**, search for the created policy name, select it.
+   4. Select **Attach policies directly**, search for the created policy name, and select it.
 
-   5. Click the **Next** button, and then click **Create user** button to finish the process.
+   5. Click the **Next** button, and then click the **Create user** button to finish the process.
 
 3. Create access tokens for the user:
 
