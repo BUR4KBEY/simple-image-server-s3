@@ -23,6 +23,7 @@ export default class AmazonS3 {
   });
   private readonly bucketName = AWS_CONFIG.BUCKET_NAME;
 
+  // Required Permission: PutObject
   uploadObject(
     key: string,
     body: Readable | ReadableStream | Blob | string | Uint8Array | Buffer
@@ -39,6 +40,7 @@ export default class AmazonS3 {
     }).done();
   }
 
+  // Required Permission: GetObject
   getObject(key: string) {
     const data: GetObjectCommandInput = {
       Bucket: this.bucketName,
@@ -60,6 +62,7 @@ export default class AmazonS3 {
     );
   }
 
+  // Required Permission: DeleteObject
   // deleteObject(key: string) {
   //   const data: DeleteObjectCommandInput = {
   //     Bucket: this.bucketName,
