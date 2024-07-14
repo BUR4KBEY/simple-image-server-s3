@@ -108,3 +108,9 @@ Here's how you can do it:
 Now, you can access the AWS user account programmatically using the **access key** and **secret access key**. Ensure that you fill the `.env` file with the correct information, including the access keys.
 
 Make sure to handle the secret access key **securely** and keep it confidential to maintain the security of your AWS resources.
+
+## ☕ Support
+
+If you find this project useful and would like to support [me](https://github.com/BUR4KBEY), you can do so by visiting [my website](https://burakbey.dev).
+
+<a href="https://burakbey.dev" target="_blank"><img src="https://burakbey.dev/github_support_snippet.png" style="height: 56px !important;width: 200px !important;" alt="Buy me a coffee"></img></a>
